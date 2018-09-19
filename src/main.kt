@@ -27,7 +27,7 @@ fun isStringValid(input: String): Boolean {
             if (map.getValue(char) != lastElement) {
                 return false
             }
-        }git
+        }
     }
 
     if (stack.isEmpty()) {
