@@ -14,8 +14,8 @@ val map = mapOf(')' to '(', '}' to '{', ']' to '[')
 
 fun isStringValid(input: String): Boolean {
 
-    var stack = Stack<Char>()
-
+    val stack = Stack<Char>()
+    
     for (char in input.toCharArray()) {
         if (map.values.contains(char)) {
             stack.push(char)
